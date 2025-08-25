@@ -18,6 +18,8 @@ Desenvolver uma calculadora funcional utilizando **HTML, CSS e JavaScript**, com
 - Botão de limpar (`C`)  
 - Interface intuitiva e responsiva  
 - Tratamento de erros simples (como expressões inválidas)  
+---
+## Como executar: abrir index.html no navegador
 
 ---
 ## 📖 O que Aprendi com Este Projeto  

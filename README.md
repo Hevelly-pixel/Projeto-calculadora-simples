@@ -20,40 +20,28 @@ Desenvolver uma calculadora funcional utilizando **HTML, CSS e JavaScript**, com
 - Tratamento de erros simples (como expressões inválidas)  
 
 ---
+## 📖 O que Aprendi com Este Projeto  
 
-## 📌 Estrutura do Código  
+Durante o desenvolvimento desta calculadora, aprendi e pratiquei:  
+- Como estruturar uma página utilizando **HTML5**;  
+- Criar estilos e deixar a interface mais amigável com **CSS3**;  
+- Implementar a lógica de uma calculadora utilizando **JavaScript**;  
+- Manipulação do **DOM** para atualizar o visor em tempo real;  
+- Organização do código separando em arquivos (`index.html`, `style.css` e `script.js`);  
+- Melhoria da lógica de programação e do raciocínio para tratar erros (como expressões inválidas).  
 
-### 📄 index.html  
-```html
-<input type="text" id="display" disabled>
-<div class="buttons">
-  <button class="clear" onclick="clearDisplay()">C</button>
-  <button onclick="appendValue('7')">7</button>
-🎨 style.css
-button {
-  padding: 15px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background: #eee;
-}
-button:hover {
-  background: #ddd;
-}
-⚡ script.js
-function appendValue(value) {
-  display.value += value;
-}
-function clearDisplay() {
-  display.value = "";
-}
-function calculate() {
-  try {
-    display.value = eval(display.value);
-  } catch {
-    display.value = "Erro";
-  }
-}
+---
+## 📂 Arquivos do Projeto  
+Todos os arquivos da calculadora (**index.html**, **style.css** e **script.js**) estão neste repositório para consulta e execução.  
+[Arquivo da Calculadora.odt](https://github.com/user-attachments/files/21976206/Arquivo.da.Calculadora.odt)
+
+
+## 🎥 Demonstração em Vídeo  
+Gravei um vídeo mostrando a calculadora em funcionamento para facilitar a visualização:   
+
+https://github.com/user-attachments/assets/304bec7b-32ec-4e6f-bfea-04b48ab894c1
+
+
+
 
 
